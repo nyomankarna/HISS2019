@@ -4,6 +4,7 @@ using namespace std;
 class People {
   private:
     string address;
+    int i;
   public:
     string name;
     string get_address() { return address;};
